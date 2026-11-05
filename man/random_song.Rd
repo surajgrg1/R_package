@@ -21,4 +21,5 @@ selecte a Random Song
 random_song()
 random_song("Maroon 5")
 random_song(artist = "The Beatles")
+random_song(artist = "Rihanna")
 }

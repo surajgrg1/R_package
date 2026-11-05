@@ -9,6 +9,7 @@
 #' @examples random_song()
 #' @examples random_song("Maroon 5")
 #' @examples random_song(artist = "The Beatles")
+#' @examples random_song(artist = "Rihanna")
 
 random_song <- function(artist ="Rihanna", data = billboard::wiki_hot_100s) {
   data <- data[data$artist == artist,]
