@@ -16,3 +16,5 @@ random_song <- function(artist ="Rihanna", data = billboard::wiki_hot_100s) {
   song <- base::sample(data$title,1)
   cat(paste0("Random song by", artist, ":", song))
 }
+
+
